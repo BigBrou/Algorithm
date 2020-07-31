@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kangster/sources/Algorithm/graph/graph1/graphDataMatrix.h
+iostream
+-
+vector
+-
+
+/Users/kangster/sources/Algorithm/graph/graph1/main.cpp
+iostream
+-
+stack
+-
+vector
+-
+array
+-
+graphDataMatrix.h
+/Users/kangster/sources/Algorithm/graph/graph1/graphDataMatrix.h
+
