@@ -1,3 +1,0 @@
-/Users/kangster/sources/Algorithm/graph/graph1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/kangster/sources/Algorithm/graph/graph1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kangster/sources/Algorithm/graph/graph1/cmake-build-debug/CMakeFiles/graph1.dir
