@@ -1,18 +1,10 @@
 #include <iostream>
+#include <algorithm>
 #include <vector>
+#include <stack>
+#include <queue>
 
-void dfs(int start, std::vector<int> graph[], bool check[]) {
-    check[start] = true;
-    std::cout << start;
-
-    for (int idx = 0; idx < graph[start].size(); idx++) {
-        int next = graph[start][idx];
-
-        if (check[next] == false){
-            dfs(next, graph, check);
-        }
-    }
-}
+#include "graphAlg.h"
 
 int main() {
     int nodes, edges;
@@ -36,7 +28,9 @@ int main() {
     }
 
     int start = 0;
-    dfs(start, graph, check);
+    bfs(start, graph, check);
+
+
 
     return 0;
 }
