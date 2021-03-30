@@ -10,8 +10,8 @@ def solution(s):
 
     for cut_range in range(1, str_range_max):
         for idx in range(len(s)):
+            pass
 
 
 
-
-    return answer
+    return

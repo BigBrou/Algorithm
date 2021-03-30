@@ -22,34 +22,14 @@ def check_longest_univalue_path(root):
         else:
             right_value = 0
 
-        if left_value >= right_value:
-            value = left_value
-        else:
-            value = right_value
-
-        if max_value[0] < value:
-            max_value[0] = value
-
-        # if node.value == node.left.value:
-        #     left_value = dfs(node.left) + 1
-        #     if max_value[0] < left_value:
-        #         max_value[0] = left_value
-        # else:
-        #     dfs(node.left)
-        #     left_value = 0
-        #
-        # if node.value == node.right.value:
-        #     right_value = dfs(node.right) + 1
-        #     if max_value[0] < right_value:
-        #         max_value[0] = right_value
-        # else:
-        #     dfs(node.right)
-        #     right_value = 0
-        #
         # if left_value >= right_value:
         #     value = left_value
         # else:
         #     value = right_value
+        value = left_value + right_value
+
+        if max_value[0] < value:
+            max_value[0] = value
 
         return value
 

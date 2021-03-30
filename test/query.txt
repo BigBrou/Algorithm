@@ -1,0 +1,10 @@
+-- Write only the SQL statement that solves the problem and nothing else.
+
+SELECT
+  i.name, s.name
+FROM
+  items as i
+JOIN
+  sellers as s
+ON
+  i.id = s.sellerId
