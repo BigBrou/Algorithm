@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kangchoi/sources/Algorithm/tree/tree1/Node.h
+iostream
+-
+
+/home/kangchoi/sources/Algorithm/tree/tree1/NodeFunction.h
+Node.h
+/home/kangchoi/sources/Algorithm/tree/tree1/Node.h
+
+/home/kangchoi/sources/Algorithm/tree/tree1/main.cpp
+iostream
+-
+Node.h
+/home/kangchoi/sources/Algorithm/tree/tree1/Node.h
+NodeFunction.h
+/home/kangchoi/sources/Algorithm/tree/tree1/NodeFunction.h
+
