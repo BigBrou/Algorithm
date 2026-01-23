@@ -1,3 +1,0 @@
-/home/kangchoi/sources/Algorithm/tree/tree1/cmake-build-release/CMakeFiles/rebuild_cache.dir
-/home/kangchoi/sources/Algorithm/tree/tree1/cmake-build-release/CMakeFiles/tree1.dir
-/home/kangchoi/sources/Algorithm/tree/tree1/cmake-build-release/CMakeFiles/edit_cache.dir
