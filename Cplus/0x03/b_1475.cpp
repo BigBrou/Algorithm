@@ -27,16 +27,8 @@ int main() {
     }
     int six_nine = int(std::ceil((numbers[6] + numbers[9]) / 2.0f));
 
-    // cout << "max" << max << "\n";
-    // cout << "six_nine" << six_nine << "\n";
-
     if (six_nine > max)
         max = six_nine;
 
     cout << max;
-
-    // print
-    // for (int a : numbers) {
-    //     cout << a << " ";
-    // }
 }

@@ -20,7 +20,7 @@ int main() {
 
     for (char w: str) {
         // cout << w << ' ';
-        numbers[int(w)-'0'] += 1;
+        numbers[int(w)-'0'] += 1; // int 필요 없음음
     }
 
     for (int x = 0; x < 10; x++) {

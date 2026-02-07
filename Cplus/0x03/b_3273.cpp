@@ -10,13 +10,13 @@ int main(void) {
     int count;
     cin >> count;
 
-    vector<int> check_arr(1000000, 0);
+    vector<int> check_arr(1000001, 0);
     vector<int> arr(count, 0);
     for (int i = 0; i < count; i++) {
         int temp;
         cin >> temp;
         arr[i] = temp;
-        check_arr[temp] += 1;
+        check_arr[temp]++;
     }
 
     int x;
@@ -24,12 +24,14 @@ int main(void) {
 
     int counter = 0;
     for (int i = 0; i < arr.size(); i++) {
-        int remain = x - arr[i];
-        if (remain > 0 && check_arr[remain] > 0) {
-            counter += 1;
-        }
+        int y = x - arr[i];
+        if (y < 0 || y > 1000000) continue;
 
+        if (check_arr[y] > 0 && y != arr[i]) {
+            counter += 1;
+            check_arr[arr[i]] = 0;
+        }
     }
 
-    cout << counter / 2;
+    cout << counter;
 }
